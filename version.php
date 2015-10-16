@@ -18,7 +18,7 @@
  * Theme version info
  *
  * @package    theme_educacionbe
- * @copyright  Shaun Daubney
+ * @copyright  Hilario Guzman
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
