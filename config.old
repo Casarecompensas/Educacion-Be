@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Configuration for Aarvark theme.
+ * Configuration for Educacionbe theme.
  *
  * DO NOT MODIFY THIS THEME!
  * COPY IT FIRST, THEN RENAME THE COPY AND MODIFY IT INSTEAD.
@@ -24,7 +24,7 @@
  * http://docs.moodle.org/dev/Themes_2.0
  *
  * @package   theme_educacionbe
- * @authors   Shaun Daubney
+ * @authors   Hilario Guzman
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
