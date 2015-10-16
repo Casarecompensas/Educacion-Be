@@ -1,13 +1,13 @@
 <?php
 
 /*
- * @author    Shaun Daubney
- * @package   theme_aardvark
+ * @author    Educacion Be
+ * @package   theme_educacionbe
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 function educacionbe_process_css($css, $theme) {
-	
+    
     // Set the menu background color
     if (!empty($theme->settings->menubackcolor)) {
         $menubackcolor = $theme->settings->menubackcolor;
@@ -15,8 +15,8 @@ function educacionbe_process_css($css, $theme) {
         $menubackcolor = null;
     }
     $css = educacionbe_set_menubackcolor($css, $menubackcolor);
-	
-	    // Set the menu hover color
+    
+        // Set the menu hover color
     if (!empty($theme->settings->menuhovercolor)) {
         $menuhovercolor = $theme->settings->menuhovercolor;
     } else {
@@ -25,39 +25,39 @@ function educacionbe_process_css($css, $theme) {
     $css = educacionbe_set_menuhovercolor($css, $menuhovercolor);
 
     
-	// Set the background image for the graphic wrap 
+    // Set the background image for the graphic wrap 
     if (!empty($theme->settings->backimage)) {
         $backimage = $theme->settings->backimage;
     } else {
         $backimage = null;
     }
     $css = educacionbe_set_backimage($css, $backimage);
-	
-	// Set the graphic position
+    
+    // Set the graphic position
     if (!empty($theme->settings->backposition)) {
        $backposition = $theme->settings->backposition;
     } else {
        $backposition = null;
     }
     $css = educacionbe_set_backposition($css,$backposition);
-	
-	// Set the background color
+    
+    // Set the background color
     if (!empty($theme->settings->backcolor)) {
         $backcolor = $theme->settings->backcolor;
     } else {
         $backcolor = null;
     }
     $css = educacionbe_set_backcolor($css, $backcolor);
-	
-	// Set the background image for the logo 
+    
+    // Set the background image for the logo 
     if (!empty($theme->settings->logo)) {
         $logo = $theme->settings->logo;
     } else {
         $logo = null;
     }
     $css = educacionbe_set_logo($css, $logo);
-	
-	    // Set custom CSS
+    
+        // Set custom CSS
     if (!empty($theme->settings->customcss)) {
         $customcss = $theme->settings->customcss;
     } else {
@@ -89,14 +89,14 @@ function educacionbe_set_menuhovercolor($css, $menuhovercolor) {
 }
 
 function educacionbe_set_backimage($css, $backimage) {
-	global $OUTPUT;  
-	$tag = '[[setting:backimage]]';
-	$replacement = $backimage;
-	if (is_null($replacement)) {
- 		$replacement = '';
- 	}
-	$css = str_replace($tag, $replacement, $css);
-	return $css;
+    global $OUTPUT;  
+    $tag = '[[setting:backimage]]';
+    $replacement = $backimage;
+    if (is_null($replacement)) {
+        $replacement = '';
+    }
+    $css = str_replace($tag, $replacement, $css);
+    return $css;
 }
 
 function educacionbe_set_backposition($css, $backposition = 'no-repeat', $tag = '[[setting:backposition]]'){
@@ -117,11 +117,11 @@ function educacionbe_set_backcolor($css, $backcolor) {
 }
 
 function educacionbe_set_logo($css, $logo) {
-	global $OUTPUT;  
-	$tag = '[[setting:logo]]';
-	$replacement = $logo;
-	$css = str_replace($tag, $replacement, $css);
-	return $css;
+    global $OUTPUT;  
+    $tag = '[[setting:logo]]';
+    $replacement = $logo;
+    $css = str_replace($tag, $replacement, $css);
+    return $css;
 }
 
 function educacionbe_set_customcss($css, $customcss) {
@@ -135,5 +135,3 @@ function educacionbe_set_customcss($css, $customcss) {
 
     return $css;
 }
-
-
