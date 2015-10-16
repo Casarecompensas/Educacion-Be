@@ -165,7 +165,7 @@ $THEME->javascripts_footer = array(
     'moodlebootstrap',
 );
 
-$THEME->csspostprocess = 'aardvark_process_css';
+$THEME->csspostprocess = 'educacionbe_process_css';
 
 $useragent = '';
 if (!empty($_SERVER['HTTP_USER_AGENT'])) {
