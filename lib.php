@@ -6,7 +6,7 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-function educacionbe_process_css($css, $theme) {
+function theme_educacionbe_process_css($css, $theme) {
     
     // Set the menu background color
     if (!empty($theme->settings->menubackcolor)) {
