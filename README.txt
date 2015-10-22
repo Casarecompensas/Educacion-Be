@@ -1,41 +1,42 @@
 / *
  * Educacionbe
  *
- * El tema original barra de menú basado en Moodle reescrito para Moodle 2.6+ dibujar
- * Su base de Manos a la Obra.
+* The issue of Educacionbe was originally created by Educacionbe, based on the original theme Shauns.
+*
+ * The original theme-based menu bar rewritten for Moodle Moodle 2.6+ draw
+ * Its base Bootstrap.
  *
- * El tema cuenta con iconos personalizados y una sección de perfil en la barra de menú
- * Portado de la versión anterior, pero con una interfaz más moderna que se adapta
- * A diferentes dispositivos.
+ * The theme has custom icons and a profile section in the menu bar
+ * Ported from the previous version, but with a modern interface that adapts
+ * A different devices.
  *
- * La inspiración tomada de la temática esencial de Julian Ridden para el bloque
- * Iconos.
+ * Icons.
  * ------------------------------------------------- -----------------------------
- * Más información y documentación pueden ser
- * Que se encuentra en https://cursos.educacion.be
+ * More information and documentation can be
+ * What is in https://cursos.educacion.be
  *
- * Licencias
+ * Licenses
  * ------------------------------------------------- -----------------------------
- * - Tema - http://www.gnu.org/copyleft/gpl.html GNU GPL v3 o posterior
- * - Fuente impresionante de fuente está disponible bajo SIL OFL 1.1 - http://scripts.sil.org/OFL
- * - Font CSS impresionante, archivos MENOS, y SASS están licenciados bajo Licencia MIT -
+ * - Topic - http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * - Awesome Power source is available under SIL OFL 1.1 - http://scripts.sil.org/OFL
+ * - Font Awesome CSS files LESS and SASS are licensed under License MIT -
  * Http://opensource.org/licenses/mit-license.html
- * - Iconos - http://www.fatcow.com/free-icons
+ * - Icons - http://www.fatcow.com/free-icons
  *
- * Autor - Hilario Guzman
+ * Author - Hilario Guzman
  * ------------------------------------------------- -----------------------------
- * Sitio web: http://educacion.be
-  * Sitio web: http://educacion.be/cursos
+ * Website: http://educacion.be
+  * Website: http://educacion.be/cursos
  * /
  
  v2.8
- - Actualizado para corregir los anchos de imagen en la versión 2.8
+ - Updated to correct the image widths in version 2.8
  
  v2.6.4
- - Config.php actualizado por compatibilidad libro de calificaciones en Moodle 2.6+ (Gracias María)
- - Wikipedia añadido a los iconos de redes sociales en el pie de página
+ - Config.php updated for compatibility gradebook in Moodle 2.6+ (Thanks Mary)
+ - Wikipedia added to social media icons on footer
  
  V2.6.3
- - Añadió una solución para el problema hipervínculo TinyMCE en EI11
+ - He added a solution to the problem TinyMCE hyperlink in IE11
 
--This is the theme of Educacionbe moodle OnLine. It is based on the bootstrap and allows extensive customization and some unique to help improve the usability of Moodle features. Rediceñado with CSS3 bonones all menus and links. The theme includes bar menu based on Moodle.
+-This Is the theme of Educacionbe moodle OnLine. It is based on the bootstrap and EXTENSIVE Allows customization and some unique to help Improve the usability of Moodle features. With CSS3 Rediceñado bonones all menus and links. The bar menu includes theme based on Moodle.
