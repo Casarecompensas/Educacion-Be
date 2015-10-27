@@ -1,7 +1,7 @@
 / *
  * Educacionbe
  *
-* The issue of Educacionbe was originally created by Educacionbe, based on the original theme Shauns.
+* The issue of Educacionbe was originally created by Educacionbe, based on the original theme_aardvark the Shauns.
 *
  * The original theme-based menu bar rewritten for Moodle Moodle 2.6+ draw
  * Its base Bootstrap.
