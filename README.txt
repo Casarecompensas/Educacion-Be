@@ -14,6 +14,7 @@
  * ------------------------------------------------- -----------------------------
  * More information and documentation can be
  * What is in https://cursos.educacion.be
+ * What is in https://github.com/Casarecompensas/Educacion-Be
  *
  * Licenses
  * ------------------------------------------------- -----------------------------
