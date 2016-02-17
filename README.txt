@@ -24,7 +24,7 @@
  * Http://opensource.org/licenses/mit-license.html
  * - Icons - http://www.fatcow.com/free-icons
  *
- * Author - Hilario Guzman Puma
+ * Author - Hilario Guzman
  * ------------------------------------------------- -----------------------------
  * Website: http://educacion.be
   * Website: http://educacion.be/cursos
